@@ -1,0 +1,95 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+.main-wrapper{
+	height: 100vh;
+	background-image: url("back.jpg");
+	overflow: hidden;
+}
+.header{
+	font-size: 450%;
+	letter-spacing: 10px;
+	font-weight: 700;
+	text-shadow: 2px 2px #ff0000;
+	line-height: 95%;
+}
+.mean-header{
+	padding-top: 80px;
+	font-weight: 700;
+	font-size: 180%;
+	text-shadow: 1px 1px #ff0000;
+}
+.sub-header{
+	font-weight: 700;
+	font-size: 120%;
+	text-shadow: 1px 1px #ff0000;
+}
+.body-wrapper{
+	padding-top: 5%;
+}
+.img-container img{
+	box-shadow: 1px 1px #ff0000;
+}
+.img-container {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e74c3c;
+  border-radius: 50%;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 120%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+i{
+	margin-bottom: 15px;
+	font-size: 350%;
+  transition: all .5s;
+  color: #fff;
+}
+i:hover{
+	color: #202020;
+}
+.side{
+  background-color: #eaebe0;
+  height: 100vh;
+}
+.alert-container{
+  height: 90vh;
+  overflow-y: scroll;
+}
